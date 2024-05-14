@@ -1,0 +1,255 @@
+
+/* Navbar Scroll Style */
+.profileNavbarScroll {
+    line-height: 0.3rem;
+}
+
+/* Sezione RightBar */
+.hoverBtn:hover {
+background: lightgray!important;
+}
+
+.rounded {
+    border-radius: 50em;
+}
+
+.rndCircle {
+    border-radius: 50em !important;
+}
+
+.imgCircle {
+    width: 3em;
+    height: 3em;
+    border-radius: 50% !important;
+}
+
+/* Fine Sezione RightBar */
+
+/*SEZIONE NAVBAR*/
+.testoNavbar, .linkNavbar, p, span, a {
+    font-size: 0.8rem !important;
+}
+
+.testoNavbar {
+    color: #666666 !important;
+    font-weight: 400 !important;
+}
+
+.linkNavbar{
+    color: #915907 !important;
+    font-weight: 400 !important;
+    text-decoration: underline !important;
+}
+
+.testoNavbar:hover, .linkNavbar:hover {
+    color: #000000 !important;
+}
+
+.navbarIcon {
+    width: 1.7rem;
+    height: auto;
+}
+
+.dropdownButton {
+    color: #136BC4 !important;
+    border: 1px solid #136BC4 !important;
+    text-align: center !important;
+    width: 100% !important;
+    border-radius: 5rem !important;
+    height: 1.5rem !important;
+}
+
+.dropdownButton:hover {
+    background-color: hsl(212, 100%, 96%) !important;
+    border: 2px solid #136BC4 !important;
+    height: 1.5rem !important;
+}
+
+.nameSectionDropdown {
+    font-size: 1rem !important;
+}
+
+.navbarList {
+    list-style-type: none !important;
+}
+
+.dropdownOption {
+    color: #999999 !important;
+}
+
+.dropdownOption:hover {
+    text-decoration: underline;
+}
+/*FINE NAVBAR*/
+
+/* Footer Style */
+.fontFooter {
+    font-size: 0.8rem;
+    color: rgb(100, 98, 98);
+    line-height: 1.5rem;
+}
+
+.ulFooter li a {
+    color: rgb(100, 98, 98);
+    text-decoration: none;
+}
+
+/* OffCanvas Style */
+.fontTitleOffcanvas {
+    color: grey;
+    font-size: 0.75rem;
+}
+
+.divListOffcanvas{
+    line-height: 1rem;
+    padding-left: 0.5rem;
+}
+.listaOffcanvas {
+    font-weight: 600;
+    list-style: none;
+}
+
+/* Inizio Homepage CSS */
+
+.imgLeftSideBar {
+    height: 4em;
+    width: 100%;
+    object-fit: cover;
+}
+
+.imgRightSideBar {
+    object-fit: cover;
+    height: 13em;
+}
+
+.listLeftSideBar {
+    list-style: none;
+}
+
+#collapse-right {
+    position: relative;
+  }
+  .imagesize {
+    height: 25em!important;
+    object-fit: cover!important;
+  }
+
+  /*Job Page*/
+
+  .jobName {
+    text-decoration: none;  
+  }
+
+  .jobName:hover {
+    text-decoration: underline;
+  }
+
+  .buttonJobClose {
+    color: #666666 !important;
+    border-radius: 50%;
+  }
+
+  .buttonJobClose:hover {
+    background-color: #66666642 !important;
+  }
+
+  .menuJob {
+    font-size: 0.9rem !important;
+  }
+
+  .linkJobMenu:hover {
+    color: black !important;
+    cursor: pointer !important;
+  }
+
+  .buttonJobMenu {
+    color: #0A66C2 !important;
+    border: 1px solid #0A66C2 !important;
+  }
+
+  .buttonJobMenu:hover {
+    background-color: #77b4f036 !important;
+    cursor: pointer;
+  }
+
+.dropFont {
+    font-size: 0.9em !important;
+}
+
+.createPost {
+    height: 5rem !important;
+}
+
+.postHeight {
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+}
+
+.commentImg {
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.commentBg{
+    background-color: #f2f2f2 !important;
+}
+
+.searchBtn {
+    border-radius: 3rem !important;
+    height: 3rem !important;
+    width: 81% !important;
+}
+
+.crocettina:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.cuoricino {
+    position: absolute;
+    right: -2.5rem;
+}
+.cuoricino:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    color: red;
+}
+
+
+/* TYPEAHEAD STYLE */
+.typeaheadTest{
+    width: 300px;
+}
+/* TYPEAHEAD STYLE */
+
+/* NotFound Style */
+.notFoundBg{
+    height: 100vh;
+    background: url('./assets/not-found.png');
+    background-size: cover ;
+    background-position: center top -90px;
+}
+
+
+/*Modal Post*/
+
+.inputfix {
+    width: 18em!important;
+    margin-bottom: 1em!important;
+}
+
+.modalBtnIcon {
+    color: #666666 !important;
+}
+
+.modalPostBtn {
+    border-radius: 50% !important;
+    background-color: #F4F2EE !important;
+    border:none !important;
+}
+
+.modalPostBtn:hover {
+    /*box-shadow: #666666 0px 1px 0px 0.5px !important;*/
+    box-shadow: 0 5px 5px -5px #666666 !important;
+}
+
+/* END NotFound Style */
